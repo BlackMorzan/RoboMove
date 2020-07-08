@@ -1,0 +1,11 @@
+digraph "Czy_przecina1"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Czy_przecina1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Wektor::WspA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor.html#a903cb6b2fa5fc618faf4d6ab126f885a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Wektor::WspB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor.html#a3499008ab57a17c89c5bae6c0c96355b"];
+}

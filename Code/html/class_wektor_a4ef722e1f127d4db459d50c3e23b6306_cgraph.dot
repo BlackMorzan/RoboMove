@@ -1,0 +1,37 @@
+digraph "Wektor::Wektor"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Wektor::Wektor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_macierz_8cpp.html#a84ea77574e6b6cb6f478b3b34afbe291"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_macierz_8cpp.html#a012fabee0d829b8ce6998f60fe6ec1f7"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Macierz::Tab1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#ad0759ca98158d289bdde5e37b6c7004e"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Macierz::Tab2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#aabdfc418e27507138e5e5ecf1680aae0"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Macierz::Tab3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#a9653feca9080cf330dd98b46188e28d4"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Macierz::Tab4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#a825142f07e9462269e155eded7419aff"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="operator+",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_zb_wektor_8cpp.html#ab1ffad06536718d3f8651ad791da5414"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="operator-",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor_8cpp.html#ac9c42d5b0fdf04af468ac5a8c3fcb409"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="operator*",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_macierz_8cpp.html#a952f1b9c9949a6a48a3d0deb6b655580"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Wektor::WspA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor.html#a903cb6b2fa5fc618faf4d6ab126f885a"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Wektor::WspB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor.html#a3499008ab57a17c89c5bae6c0c96355b"];
+  Node10 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Wektor::S_WspA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor.html#a90c0d2ee5af28fd44cc8473e2b4ca69b"];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Wektor::S_WspB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor.html#a54695866ba1038f63a0a28e473358f1a"];
+}

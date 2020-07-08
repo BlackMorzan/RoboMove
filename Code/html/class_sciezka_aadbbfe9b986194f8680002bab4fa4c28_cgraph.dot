@@ -1,0 +1,19 @@
+digraph "Sciezka::G_TabWek"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Sciezka::G_TabWek",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_macierz_8cpp.html#a012fabee0d829b8ce6998f60fe6ec1f7"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Macierz::Tab1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#ad0759ca98158d289bdde5e37b6c7004e"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Macierz::Tab2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#aabdfc418e27507138e5e5ecf1680aae0"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Macierz::Tab3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#a9653feca9080cf330dd98b46188e28d4"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Macierz::Tab4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_macierz.html#a825142f07e9462269e155eded7419aff"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_sciezka_8hh.html#afdf1ca9e7afc3e7ec41b47fea4b3d80d"];
+}

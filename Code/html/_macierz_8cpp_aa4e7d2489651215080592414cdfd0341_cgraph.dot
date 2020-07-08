@@ -1,0 +1,29 @@
+digraph "operator*"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="operator*",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ZbWektor::S_Punkt1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#af6aeb5327e5fd5001cceb5e178e25838"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ZbWektor::Punkt1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#ad2b63b82ce5fb214bc661915c5293438"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ZbWektor::Punkt0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#a078b5c8be4a8b7a36b2c34c0bceb6783"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ZbWektor::S_Punkt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#a970ba3eaa47f8ff052273269a79c8417"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ZbWektor::Punkt2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#aea30688972bceb798344303a34b419d6"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ZbWektor::S_Punkt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#a3b8ad9c7efb568f4d2e5ef823f436fa7"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ZbWektor::Punkt3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#a27a446f22af8a4f0f4a9c9084efb475d"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ZbWektor::S_Punkt4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#a233d31f11a1256a7e9c82d4ec63d955d"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ZbWektor::Punkt4",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#a97725019a838d4709993f1142a9c713a"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ZbWektor::S_Punkt5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#ad9e82506d747f2482b181db48440286b"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ZbWektor::Punkt5",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zb_wektor.html#a82da401353307d0102c28a640074938e"];
+}

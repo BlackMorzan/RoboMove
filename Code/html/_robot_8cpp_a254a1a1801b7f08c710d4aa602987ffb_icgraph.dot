@@ -1,0 +1,24 @@
+digraph "Kolizja"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Kolizja",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Robot::S_RadObr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_robot.html#a0462f50beaafab7d478608d05de5837f"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MakeMacierz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_robot_8cpp.html#a965a5c6a4be1d31ccf86c9ab01bda3fe"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="All",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_all_8cpp.html#a7b0e7672f52ece4489533af8aefe1101"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Obrot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_robot_8cpp.html#a3ce3fa0e24fef994b421474716964158"];
+  Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Ruch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_robot_8cpp.html#ae91af2f6f4d6ca15417d15eb15a216ae"];
+  Node7 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
